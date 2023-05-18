@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7cdaef;
+  padding-top: 104px;
+}
+.container {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  padding: 99px 79px 176px 78px;
+  background: rgba(14, 73, 126, 0.7);
+  z-index: 4;
+}
+.blue {
+  position: relative;
+  z-index: 4;
+}
+.bird {
+  width: 118px;
+  height: 121px;
+  margin-right: 10px;
+}
+h1 {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: white;
+  margin-bottom: 24px;
+}
+p {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+h2 {
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #ffffff;
+  margin: 10px 0 51px;
+}
+.grass {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 132px;
+  background-image: url(./images/grass.png);
+  z-index: 5;
+}
+.obl1 {
+  position: absolute;
+  width: 339.66px;
+  height: 141.32px;
+  right: -155.66px;
+  top: -58.92px;
+  z-index: 4;
+}
+.obl2 {
+  position: absolute;
+  width: 362.55px;
+  height: 157.79px;
+  top: 178.63px;
+  left: -205px;
+  z-index: 2;
+}
+.obl3 {
+  position: absolute;
+  width: 468px;
+  height: 216.74px;
+  right: -206px;
+  top: 450px;
+  z-index: 1;
+}
